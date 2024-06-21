@@ -1,5 +1,5 @@
 # Creating ERC20 Token
-In this project of module 3 of course ETH + AVAX PROOF: Intermediate EVM Course, we are creating our own ERC20 token. The contract owner should be able to mint tokens to a provided address and any user should be able to burn and transfer tokens. This project is deployed on Remix IDE.
+In this project of module 3 of course ETH + AVAX PROOF: Intermediate EVM Course, we are creating our own [ERC20 token](https://docs.openzeppelin.com/contracts/4.x/erc20). The contract owner should be able to mint tokens to a provided address and any user should be able to burn and transfer tokens. This project is deployed on Remix IDE.
 
 # Introduction
 The ERC-20 introduces a standard for Fungible Tokens, in other words they have a property that makes each Token be exactly the same (in type and value) as another Token. 
@@ -30,7 +30,7 @@ Here the mintToken function is only used by the owner whereas the burnToken and 
 
 # Executing Program
 1. Open [Remix IDE](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.26+commit.8a97fa7a.js) in your browser and click on "start coding" button.
-2. You can copy the code or download the IndianRuppee.sol file from this repo.
+2. You can copy the code or download the [IndianRuppee.sol](https://github.com/tobiasrahul/Eth-Avax-Intermediate-module-3/blob/main/IndianRuppe.sol) file from this repo.
 3. Compile the code form left side tool bar and then deploy it.
 4. Pass the initial value (intial tokens) and then deploy the contract. Then you can use all the functions like mint, burn and transfer token.
 
